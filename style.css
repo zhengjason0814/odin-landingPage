@@ -186,3 +186,12 @@ h1 {
     padding: 2px 30px;
     border-radius:10px;
 }
+
+.footer {
+    display:flex;
+    background-color: #1F2937;
+    color:#E5E7EB;
+    justify-content:center;
+    align-items:center;
+    padding: 10px 0;
+}
