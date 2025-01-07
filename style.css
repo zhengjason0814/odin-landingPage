@@ -78,3 +78,42 @@ h1 {
     font-weight:900; 
     margin:18 0 0 0;
 }
+.information-block {
+    display:flex;
+    flex-direction:column;
+    flex-grow:1;
+}
+
+.information-block h2 {
+    text-align:center;
+}
+
+.information {
+    display:flex;
+    gap: 40px;
+    justify-content: center;
+    flex-grow:1;
+}
+
+.image-box{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    margin:15px 0;
+}
+
+.image-box img {
+    border-style:solid;
+    border-radius: 10px;
+    width:150px;
+    height:150px;
+    margin:0px;
+}
+
+.image-box p {
+    text-align:center;
+    color:#1F2937;
+    font-size:18px;
+    width:150px;
+    height:80px;
+}
