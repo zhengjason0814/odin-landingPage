@@ -144,3 +144,45 @@ h1 {
     font-size:36px;
     font-style:italic;
 }
+
+/* This starts the advertisement portion */
+
+.advertisement-block {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.advertisement {
+    display:flex;
+    gap: 200px;
+    background-color: #3882F6;
+    border-radius: 7px;
+    padding:30px 90px;
+    margin: 30px 0;
+    color:#E5E7EB;
+    margin: 70px 0px;
+}
+
+.advertisement-text {
+    display:flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.advertisement-text h3{
+    font-weight:700;
+}
+
+.advertisement-text h3 , .advertisement-text p {
+    margin:0px;
+}
+
+.advertisement button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border: 2px solid #E5E7EB;
+    font-weight:bold;
+    padding: 2px 30px;
+    border-radius:10px;
+}
