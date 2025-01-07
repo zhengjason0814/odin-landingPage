@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;300italic;400;700&display=swap');
+
+* {
+    font-family:'Roboto',sans-serif;
+}
+
+body {
+    display:flex;
+    margin:0px;
+    flex-direction:column;
+}
+
+/* First block of website, top portion */
+
+.sign-up-block {
+    display:flex;
+    flex-direction:column;
+    background-color: #1F2937;
+    flex-grow:1;
+}
+
+.header, .sign-up {
+    margin:0 200px;
+}
+
+.header {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.header h2 {
+    font-size:24px;
+    color:#F9FAF8;
+}
+
+.header-links {
+    margin-left:auto;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size:18px;
+    margin: 0 10px;
+}
+
+.sign-up {
+    display:flex;
+    padding: 30px 0px;
+}
+
+.sign-up-text {
+    color: #E5E7EB;
+    font-size:18px;
+    width:425px;
+    flex-shrink:1;
+}
+
+img {
+    width:500px;
+    height: 300px;
+    margin-left: 100px;
+}
+
+.sign-up button {
+    background-color: #3882F6;
+    color: white;
+    font-weight:bold;
+    padding: 10px 30px;
+    border-radius:10px;
+    border:0px;
+}
+
+h1 {
+    color:#F9FAF8;
+    font-size:48px;
+    font-weight:900; 
+    margin:18 0 0 0;
+}
