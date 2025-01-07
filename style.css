@@ -117,3 +117,30 @@ h1 {
     width:150px;
     height:80px;
 }
+
+/* This is the third portion of the website, the quote block */
+
+.quote-block {
+    background-color:#e5e7eb;
+    color:#1F2937;
+}
+
+.quote-content {
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    padding:30px 350px;
+}
+
+.author {
+    margin:0px;
+    font-weight:700;
+    font-size:24px;
+    align-self:flex-end;
+}
+
+.quote {
+    font-weight:300;
+    font-size:36px;
+    font-style:italic;
+}
